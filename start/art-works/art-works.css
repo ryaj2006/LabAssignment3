@@ -109,6 +109,10 @@
     padding: 1em;
 }
 
+.sidebar-list {
+    list-style: none;
+}
+
 /* footer start */
 .top-footer {
     background-color: #e7e7e7;
