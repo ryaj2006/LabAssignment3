@@ -1,0 +1,148 @@
+#about-container{
+    height: 100%;
+    overflow: auto;
+/*   background-color: red; */
+}
+
+#about-container-inner{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-row-gap: 1em;
+    height: 100%;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.top-nav{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #222;
+    border-color: #080808;
+    height: 55px;
+    border-radius: 4px;
+    padding: 1em;
+}
+.main-nav {
+    border: 1px solid #e5e5e5;
+}
+.welcome-txt{
+    color: #fff;
+}
+.top-nav-item{
+    list-style-type: none;
+}
+.top-nav-item li {
+    display: inline;
+}
+.top-nav-item li a{
+    color: #fff;
+    padding: 5px;
+}
+
+.logo-txt{
+    font-size: 1.75em !important;
+    font-weight: bold;
+}
+.white{
+    background-color: #fff !important;
+}
+.banner {
+    height: 340px;
+    border-radius: 10px;
+    background-image: url('../img/whistler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 14%;
+    color: #fff;
+    padding: 3em;
+}
+.art-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.art-c1-content{
+    display: grid; 
+    grid-template-columns: 3fr 4fr;
+    grid-column-gap: 1em;
+    height: 65%;
+}
+.left {
+    background-image: url(../img/113010.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+/*    max-height: 500px; */
+}
+.red-text{
+    color: red;
+}
+.btn-bordered{
+    border: 1px solid #ccc;
+}
+.product-table{
+    width: 100%;
+    table-layout: fixed;
+    border: 1px solid #ccc;
+}
+.product-table > thead > tr {
+    background-color: #ffffff;
+}
+.product-table td {
+    border-bottom: 1px solid #ccc;
+    padding: 2px 3px;
+}
+.similar-products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    /*height: 300px;*/
+    text-align: center;
+    grid-column-gap: 1em;
+    margin: 20px 0px;
+}
+.small-text{
+    font-size: .95em;
+}
+.bordered{
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1em;
+}
+
+/* footer start */
+.top-footer {
+    background-color: #e7e7e7;
+    /* padding-top: 200px;  */
+}
+
+.footer-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    width: 80%;
+    margin: 0px auto;
+    height: 300px;
+    padding: 10px 0px 0px;
+}
+.medium-txt {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+.footer-list {
+    list-style-type: none;
+}
+.fotter-list > li {
+    margin-bottom: 15px;
+    overflow: auto;
+}
+ul.footer-list > li >  img {
+    float: left;
+    margin-right: 10px;
+}
+.footer-link {
+    padding: 5px 0px;
+    display: block;
+}
+.bottom-footer {
+    text-align: center;
+}
+/* footer end */
